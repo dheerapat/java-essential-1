@@ -6,7 +6,7 @@ public class AddNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int runAgain = 0;
+        int runAgain;
         do {
             System.out.println("enter first number");
             double num1 = scanner.nextDouble();
